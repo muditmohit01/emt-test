@@ -1,0 +1,1412 @@
+{
+  "vital_signs": [
+    {
+      "id": "bp",
+      "name": "Blood Pressure (BP) Measurement Checklist",
+      "score": 5,
+      "items": [
+        {
+          "description": "Identify BP instrument (sphygmomanometer, stethoscope)",
+          "score": 1
+        },
+        {
+          "description": "Proper application of BP cuff",
+          "score": 1
+        },
+        {
+          "description": "Proper placement of stethoscope",
+          "score": 1
+        },
+        {
+          "description": "Palpate radial pulse",
+          "score": 1
+        },
+        {
+          "description": "Accurately augment BP measurement",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse Assessment Checklist",
+      "score": 5,
+      "items": [
+        {
+          "description": "Identify major pulse points (carotid, brachial, femoral, etc.)",
+          "score": 1
+        },
+        {
+          "description": "Identify radial pulse (wrist level)",
+          "score": 1
+        },
+        {
+          "description": "Check pulse rate (beats per minute)",
+          "score": 1
+        },
+        {
+          "description": "Check pulse rhythm (regular or irregular)",
+          "score": 1
+        },
+        {
+          "description": "Check pulse quality (volume, strength)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "temperature",
+      "name": "Temperature Assessment",
+      "score": 5,
+      "items": [
+        {
+          "description": "Use appropriate thermometer (oral, axillary, tympanic, rectal)",
+          "score": 1
+        },
+        {
+          "description": "Prepare and clean thermometer before use",
+          "score": 1
+        },
+        {
+          "description": "Place thermometer correctly based on the method",
+          "score": 1
+        },
+        {
+          "description": "Wait for recommended duration or digital signal",
+          "score": 1
+        },
+        {
+          "description": "Read and document temperature accurately and clean thermometer",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "spo2",
+      "name": "SpO\u2082 (Oxygen Saturation) Measurement",
+      "score": 5,
+      "items": [
+        {
+          "description": "Use pulse oximeter device",
+          "score": 1
+        },
+        {
+          "description": "Place sensor on finger, toe, or earlobe",
+          "score": 1
+        },
+        {
+          "description": "Ensure good contact and minimal movement",
+          "score": 1
+        },
+        {
+          "description": "Record SpO\u2082 percentage and pulse rate",
+          "score": 1
+        },
+        {
+          "description": "Note any signs of poor perfusion or abnormal readings",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "glucose",
+      "name": "Glucose Measurement",
+      "score": 5,
+      "items": [
+        {
+          "description": "Prepare glucometer, test strip, and lancet and clean patient's finger with alcohol swab",
+          "score": 1
+        },
+        {
+          "description": "Prick finger with lancet and wipe first drop of blood, use second drop for testing",
+          "score": 1
+        },
+        {
+          "description": "Apply blood to test strip",
+          "score": 1
+        },
+        {
+          "description": "Read and document glucose level",
+          "score": 1
+        },
+        {
+          "description": "Dispose of sharps and materials safely",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "pupils",
+      "name": "Pupil Assessment",
+      "score": 5,
+      "items": [
+        {
+          "description": "Check pupil size (equal/unequal)",
+          "score": 1
+        },
+        {
+          "description": "Check pupil shape (round/irregular)",
+          "score": 1
+        },
+        {
+          "description": "Check reaction to light (direct and consensual)",
+          "score": 1
+        },
+        {
+          "description": "Check accommodation response (focus on near and far objects)",
+          "score": 1
+        },
+        {
+          "description": "Note any abnormal findings (e.g. sluggish, non-reactive)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "name": "Skin Assessment",
+      "score": 5,
+      "items": [
+        {
+          "description": "Observe skin color (pale, flushed, cyanotic)",
+          "score": 1
+        },
+        {
+          "description": "Check skin temperature (warm, cool, cold)",
+          "score": 1
+        },
+        {
+          "description": "Check skin condition (dry, clammy, diaphoretic)",
+          "score": 1
+        },
+        {
+          "description": "Check skin turgor (pinch test for hydration)",
+          "score": 1
+        },
+        {
+          "description": "Check for lesions, rashes, pressure areas and note any wounds",
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "drugs": [
+    {
+      "id": "adrenalin",
+      "name": "INJ. ADRENALIN",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "atropine",
+      "name": "INJ. ATROPINE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "diazepam",
+      "name": "INJ. CALMPOSE/DIAZEPAM",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "dexamethasone",
+      "name": "INJ.DEXAMETHASONE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "etofylline",
+      "name": "INJ. ETOFYLLINE /THEOPHYLLINE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "diclofenac",
+      "name": "INJ. DICLOFENAC SODIUM",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "dicyclomine",
+      "name": "INJ. DICYCLOMINE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "epsolin",
+      "name": "INJ. EPSOLIN",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "gentamicin",
+      "name": "INJ. GENTAMICIN",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "hydrocortisone",
+      "name": "INJ. HYDROCORTISONE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "lasix",
+      "name": "INJ. LASIX",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mephentine",
+      "name": "INJ. MEPHENTINE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "perinorm",
+      "name": "INJ. PERINORM",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "rantac",
+      "name": "INJ. RANTAC/RANITIDINE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "iv-dns",
+      "name": "IV-DNS",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "iv-ns",
+      "name": "IV-NS",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "iv-rl",
+      "name": "IV-RL",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "antad",
+      "name": "TAB. ANTAD /DIOVOL",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "buscopan",
+      "name": "TAB. BUSCOPAN",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ciprofloxacin",
+      "name": "TAB. CIPROFLOXACIN",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "depin",
+      "name": "TAB. DEPIN",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "domperidone",
+      "name": "TAB. DOMPERIDONE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mesoprost",
+      "name": "TAB. MESOPROST",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "metronidazole",
+      "name": "TAB. METRONIDAZOLE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "paracetamol",
+      "name": "TAB. PARACETOMOL",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "sorbitrate",
+      "name": "TAB. SORBITRATE",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "betadine",
+      "name": "BETADINE LOTION",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "dextrose",
+      "name": "DEXTROSE 5% IV FLUIDS",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "glucose_powder",
+      "name": "GLUCOSE POWDER",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ors",
+      "name": "ORS",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "volini",
+      "name": "PAIN SPRAY-VOLINI",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "savlon",
+      "name": "SAVLON",
+      "score": 5,
+      "criteria": [
+        {
+          "description": "Medicine Identification",
+          "score": 1
+        },
+        {
+          "description": "Medicine Route of Administration",
+          "score": 1
+        },
+        {
+          "description": "Medicine Indications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Contraindications",
+          "score": 1
+        },
+        {
+          "description": "Medicine Dosage",
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "id": "fire_extinguisher",
+      "name": "FIRE EXTINGUISHER - 5KGS",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Equipment Identification",
+          "score": 1
+        },
+        {
+          "description": "Equipment Use Indication",
+          "score": 1
+        },
+        {
+          "description": "Equipment Expiration",
+          "score": 1
+        },
+        {
+          "description": "Blank and Full Status",
+          "score": 1
+        },
+        {
+          "description": "Placement and Replacement",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "burn_pack",
+      "name": "BURN PACK- STANDARD PACKAGE, CLEAN BURN",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Check the seal and expiry of sterile dressings, sheets, and gels",
+          "score": 1
+        },
+        {
+          "description": "Confirm contents (burn sheets, dressings, gloves) are complete",
+          "score": 1
+        },
+        {
+          "description": "Verify sterility; replace if tampered or past expiration",
+          "score": 1
+        },
+        {
+          "description": "Store in a clean, dry, accessible area",
+          "score": 1
+        },
+        {
+          "description": "Inspect monthly; restock if used",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "airway",
+      "name": "NON-METALLIC \u2013 OPA/NPA (ADULT, CHILD, INFANT)",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Check size availability (Adult, Child, Infant) and integrity",
+          "score": 1
+        },
+        {
+          "description": "Inspect for cracks, discoloration, or damage",
+          "score": 1
+        },
+        {
+          "description": "Restock immediately after use",
+          "score": 1
+        },
+        {
+          "description": "Ensure sterility and cleanliness",
+          "score": 1
+        },
+        {
+          "description": "Confirm expiry date or replacement cycle",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "obstetrical_kit",
+      "name": "OBSTETRICAL KIT (DELIVERY KIT)",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Verify sealed packaging and expiry date",
+          "score": 1
+        },
+        {
+          "description": "Confirm presence of all contents (clamps, scissors, drapes, suction bulb, etc.)",
+          "score": 1
+        },
+        {
+          "description": "Ensure sterility and cleanliness",
+          "score": 1
+        },
+        {
+          "description": "Store in an easily accessible Ambulance compartment",
+          "score": 1
+        },
+        {
+          "description": "Store in a dry, secure location",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stretcher",
+      "name": "COLLAPSIBLE STRETCHER (WITH RESTRAINING)",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Check frame integrity and locking mechanism",
+          "score": 1
+        },
+        {
+          "description": "Inspect fabric/straps for tears or fraying",
+          "score": 1
+        },
+        {
+          "description": "Confirm restraint belts are present and functional",
+          "score": 1
+        },
+        {
+          "description": "Ensure cleanliness and lubrication of joints",
+          "score": 1
+        },
+        {
+          "description": "Store in an easily accessible Ambulance compartment",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "scoop_stretcher",
+      "name": "SCOOP STRETCHER",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Inspect joints and locks for secure function",
+          "score": 1
+        },
+        {
+          "description": "Check split mechanism and adjustability",
+          "score": 1
+        },
+        {
+          "description": "Verify structural integrity and cleanliness",
+          "score": 1
+        },
+        {
+          "description": "Confirm restraints are functional and available",
+          "score": 1
+        },
+        {
+          "description": "Store in a designated Ambulance area",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "spine_board",
+      "name": "SPINE BOARD WITH STRAPS",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Examine board integrity for cracks, warping",
+          "score": 1
+        },
+        {
+          "description": "Check straps for fraying, proper function",
+          "score": 1
+        },
+        {
+          "description": "Ensure cleanliness and disinfection",
+          "score": 1
+        },
+        {
+          "description": "Confirm sufficient strap availability",
+          "score": 1
+        },
+        {
+          "description": "Store in readily accessible location",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cervical_collar",
+      "name": "CERVICAL COLLAR",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Check collar size availability (Child, Adult, Large)",
+          "score": 1
+        },
+        {
+          "description": "Inspect for damage, cleanliness, and Velcro integrity",
+          "score": 1
+        },
+        {
+          "description": "Verify adjustability and locking mechanism",
+          "score": 1
+        },
+        {
+          "description": "Ensure stored flat to maintain shape",
+          "score": 1
+        },
+        {
+          "description": "Replace if worn or used",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "head_immobilizer",
+      "name": "HEAD IMMOBILIZER",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Confirm completeness (base, blocks, straps)",
+          "score": 1
+        },
+        {
+          "description": "Inspect for damage, cracks, or missing parts",
+          "score": 1
+        },
+        {
+          "description": "Check straps for secure fit",
+          "score": 1
+        },
+        {
+          "description": "Ensure cleanliness and ready for use",
+          "score": 1
+        },
+        {
+          "description": "Store with spine board setup",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "oxygen_delivery",
+      "name": "OXYGEN DELIVERY SYSTEM",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Check that the humidifier bottle is filled with sterile/distilled water at the correct level",
+          "score": 1
+        },
+        {
+          "description": "Inspect the regulator and flowmeter for proper function and zero leaks",
+          "score": 1
+        },
+        {
+          "description": "Verify the flow rate settings match the prescribed oxygen delivery (e.g., 1-15 L/min)",
+          "score": 1
+        },
+        {
+          "description": "Ensure all connections (tubing, humidifier, oxygen source) are secure and airtight",
+          "score": 1
+        },
+        {
+          "description": "Confirm no visible damage or cracks; replace if damaged or expired",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "nebulizer",
+      "name": "NEBULIZER SYSTEM",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Check the nebulizer cup for cleanliness and proper assembly",
+          "score": 1
+        },
+        {
+          "description": "Verify the oxygen or air tubing connections are secure and leak-free",
+          "score": 1
+        },
+        {
+          "description": "Ensure the facemask fits comfortably and seals well on the patient's face",
+          "score": 1
+        },
+        {
+          "description": "Confirm the medication chamber is clean and ready for use",
+          "score": 1
+        },
+        {
+          "description": "Inspect for cracks or damage in the mask, tubing, or nebulizer; replace as needed",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "oxygen_cylinder",
+      "name": "OXYGEN CYLINDER",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Verify the cylinder pressure gauge is within the safe operating range (full or sufficient pressure)",
+          "score": 1
+        },
+        {
+          "description": "Check the cylinder valve and regulator for leaks or damage",
+          "score": 1
+        },
+        {
+          "description": "Ensure the cylinder is properly secured in a rack or holder during storage and use",
+          "score": 1
+        },
+        {
+          "description": "Confirm the cylinder labeling and expiry date (hydrostatic test date)",
+          "score": 1
+        },
+        {
+          "description": "Inspect for any rust, dents, or physical damage; remove damaged cylinders from use",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "suction_unit",
+      "name": "SUCTION UNIT",
+      "score": 5,
+      "checklist": [
+        {
+          "description": "Check the canister is filled (if applicable) and tubing is clean and intact",
+          "score": 1
+        },
+        {
+          "description": "Inspect the regulator/gauge for correct pressure and ensure there are no leaks",
+          "score": 1
+        },
+        {
+          "description": "Verify the suction pressure is within the prescribed range",
+          "score": 1
+        },
+        {
+          "description": "Ensure all connections (tubing, canister, suction source) are secure and airtight",
+          "score": 1
+        },
+        {
+          "description": "Check for visible damage or cracks; replace any worn, damaged, or expired parts",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}
